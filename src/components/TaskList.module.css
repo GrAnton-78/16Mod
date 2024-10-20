@@ -1,0 +1,25 @@
+.taskListMain {
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 7px;
+    padding: 5%;
+    background-color: rgba(20, 202, 202, 0.5);
+    margin-right: 20px;
+    min-width: 60%;
+}
+
+.taskList {
+    list-style-type: none;
+}
+
+.taskListMain li {
+    margin: 5px 0 10px 0;
+    border-bottom: 1px solid whitesmoke;
+}
+
+@media (max-width: 750px) {
+    .taskListMain {
+        margin-right: 0;
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+}

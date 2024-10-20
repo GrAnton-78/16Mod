@@ -1,0 +1,15 @@
+.toDo_main{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-bottom: 10%;
+    color: brown;
+}
+
+@media (max-width: 800px) {
+    .toDo_main {
+        flex-direction: column
+    }
+}
